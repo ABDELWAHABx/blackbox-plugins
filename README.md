@@ -1,5 +1,3 @@
-# blackbox-plugins
-Blackbox Plugin Store - Official plugins and add-ons
 # Blackbox Plugins
 
 Official plugin repository for Blackbox - AI Tool Platform
