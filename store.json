@@ -1,0 +1,62 @@
+{
+    "version": "1.0",
+    "base_url": "https://github.com/ABDELWAHABx/blackbox-plugins/releases/download/",
+    "plugins": [
+        {
+            "id": "remove_bg",
+            "name": "Remove Background",
+            "version": "1.0.0",
+            "description": "AI-powered background removal using BiRefNet, U2-Net, and more models.",
+            "icon": "🖼️",
+            "size": "4.3 MB",
+            "download_url": "https://github.com/ABDELWAHABx/blackbox-plugins/releases/download/remove_bg-v1.0.0/remove_bg_v1.0.0.zip",
+            "hash": "41c28b7137e8db03d6be13aabffb3ccd0172426f22073017bfcf6c240d3ba4b9",
+            "has_ui": false,
+            "min_app_version": "1.0.0",
+            "changelog": "Initial release with 15 background removal models"
+        },
+        {
+            "id": "upscale",
+            "name": "Image Upscaler",
+            "version": "1.0.0",
+            "description": "Upscale images using Lanczos and Bicubic algorithms.",
+            "icon": "🔍",
+            "size": "1 MB",
+            "download_url": "https://github.com/ABDELWAHABx/blackbox-plugins/releases/download/v1.0.0/upscale_v1.0.0.zip",
+            "hash": null,
+            "has_ui": false,
+            "min_app_version": "1.0.0",
+            "changelog": "Initial release"
+        },
+        {
+            "id": "ocr",
+            "name": "Text Extractor (OCR)",
+            "version": "1.0.0",
+            "description": "Extract text from images using Tesseract OCR.",
+            "icon": "📝",
+            "size": "2 MB",
+            "download_url": "https://github.com/ABDELWAHABx/blackbox-plugins/releases/download/v1.0.0/ocr_v1.0.0.zip",
+            "hash": null,
+            "has_ui": true,
+            "min_app_version": "1.0.0",
+            "changelog": "Initial release with clipboard and text output"
+        }
+    ],
+    "runtimes": {
+        "directml": {
+            "name": "DirectML",
+            "description": "GPU acceleration for AMD/Intel GPUs",
+            "size": "50 MB",
+            "download_url": "https://github.com/ABDELWAHABx/blackbox-plugins/releases/download/runtimes/directml.zip",
+            "pip_package": "onnxruntime-directml==1.22.0"
+        },
+        "cuda": {
+            "name": "CUDA",
+            "description": "GPU acceleration for NVIDIA GPUs",
+            "size": "450 MB",
+            "download_url": "https://github.com/ABDELWAHABx/blackbox-plugins/releases/download/runtimes/cuda.zip",
+            "pip_package": "onnxruntime-gpu",
+            "requires_dlls": true
+        }
+    }
+}
