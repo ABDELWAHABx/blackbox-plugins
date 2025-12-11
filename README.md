@@ -45,8 +45,4 @@ Each plugin ZIP contains:
 
 ## Support
 
-For issues or questions, contact: [Your Contact Info]
-
----
-
-Powered by Blackbox © 2024
+For issues or questions, contact: abdelwahab.t.work@gmail.com
